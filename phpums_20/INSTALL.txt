@@ -1,0 +1,8 @@
+INSTALLATION:
+
+Thank you for downloading UMS. To install the package simply follow those 2 simple steps:
+
+  1. After extracting the package to any folder in your server root, open the file settings.php in [root]/lib/inc/settings.php. Find the connectio string section and replace it with your database info.
+  2. Then find the file ums.sql in the root folder of the package and run all the SQL statemets that it contains. If you use phpMyAdmin or an other database management system, the you can simply use the inport function.
+  
+That is all. ENJOY!!

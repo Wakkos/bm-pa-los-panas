@@ -1,0 +1,155 @@
+/* CSS Document */
+
+body {
+background: #EEE url(bg2.png) repeat 0% 0%;
+font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+font-size: 12px;
+text-align:center;
+}
+.code {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	background-color: #EEE;
+	padding: 10px;
+	width: 90%;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border: 1px solid #333;
+	text-align:left;
+	color: #009;
+}
+.code .functions {
+	color: #060;
+}
+.code .pars {
+	color: #06F;
+}
+.code .oper {
+	color: #00F;
+}
+.code .cfunctions {
+	color: #000;
+}
+.code .string {
+	color: #C00;
+}
+.code .tag {
+	color: #009;
+}
+.code .tag_string {
+	color: #3A66FF;
+}
+.code .tag_script {
+	color: #900;
+}
+.code .tag_obj {
+	color: #AB3ACE;
+}
+.code .tag_a {
+	color: #060;
+}
+.code .tag_form {
+	color: #FF993A;
+}
+
+.center {
+	width:850px;
+	margin:auto;
+}
+.error {
+	width:500px;
+	margin:20px auto;
+	border:1px solid #900;
+	color:#900;
+	padding:10px;
+	text-align:center;
+	font-weight:bold;
+	background-color:#FCC;
+}
+
+.tabber{
+	float:left;
+	list-style:none;
+	-webkit-padding-start:0px;
+	margin:0px;
+	width:200px;
+}
+.tabber li a{
+	display:block;
+	padding:10px;
+	margin:6px;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#666;
+	border:none;
+	border-left:1px dotted #121212;
+	border-right:1px dotted #121212;
+}
+.tabber li a:hover, .tabber li a.current{
+	border-left:1px dotted #298929;
+	border-right:1px dotted #298929;
+}
+.tabber li a:hover{ color:#466C46; }
+.tabber li a.current{ color:#298929; }
+
+.tabs {
+	position:relative;
+	height:600px;
+	width:650px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+}
+
+.tabcont {
+	position:absolute;
+	width:100%;
+
+}
+
+.tab {
+	display:block;
+	clear:both;
+	padding:10px;
+	margin:2px 10px;
+	height:600px;
+	color:#333;
+}
+#other.tab, #about.tab {
+	text-align:left;
+}
+	
+.tab .col {
+	width:30%;
+	display:block;
+	clear:none;
+	float:left;
+	margin:0px 10px;
+}
+.tab h1 {
+	font-size:18px;
+	font-weight:bold;
+	margin:0px;
+	color:#298929;
+}
+.tab h1 small {
+	font-size:18px;
+	font-weight:normal;
+	margin-left:4px;
+}
+.body-0 .tab h3 {
+	font-size:16px;
+	font-weight:normal;
+	margin:0px;
+	color:#999;
+	float:none;
+	text-align:left;
+}
+.tab hr {
+	background-color:#586752;
+	border:none;
+	height:1px;
+}

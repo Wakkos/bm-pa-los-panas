@@ -1,7 +1,10 @@
 Welcome to Wakkos' Localhost III.
 <?php
+require "phpums_20/lib/ums.php";
+
+
 $doc = new DOMDocument();
-$doc->loadHTMLFile("bm.html");
+$doc->loadHTMLFile("sample_bookmark.html");
 $html = $doc->saveHTML(); //load bookmark file
 
 $dom = new DOMDocument;
