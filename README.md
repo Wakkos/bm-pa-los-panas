@@ -87,7 +87,7 @@ git remote add upstream https://github.com/Wakkos/bm-pa-los-panas
 
 4. Haz commit a tus cambios en trozos lógicos de código. Por favor, sigue estas [convenciones de mensajes de Git](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) o tu código puede que no se fusione en el proyecto principal.  Usa la característica [_interactive rebase_](https://help.github.com/articles/interactive-rebase) de Git para ajustar tus commits antes de hacerlos públicos.
 
-5. Locally rebase the upstream development branch into your topic branch:
+5. Haz un _rebase_ local de la rama principal en tu rama:
 
    ```bash
    git pull --rebase upstream master
