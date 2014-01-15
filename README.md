@@ -75,6 +75,7 @@ Es importante que te adhieras a las convenciones de código usadas en el proyect
 Sigue este proceso si quieres que tu trabajo sea considerado para incluirlo en el proyecto:
 
 1. Haz un [Fork](http://help.github.com/fork-a-repo/) al proyecto, clona tu fork y configura el remoto:
+
 ```bash
  # Clona tu fork del repositorio en el directorio actual
 git clone https://github.com/<username>/bm-pa-los-panas
