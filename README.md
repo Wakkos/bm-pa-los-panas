@@ -1,11 +1,23 @@
-# Cómo contribuir en bm-pa-los-panas
+# Bookmarks Saver
+
+### ¿Qué es esto?
+
+Intentamos crear un pequeño sistema de administración de bookmarks/favoritos. La idea es que te puedas crear un usuario y guardar tus favoritos o links interesantes para poder compartirlos con la gente.
+
+A su vez, queremos dar la opción de poder importar los favoritos actuales de tu navegador e incluso poder mantener alguno que otro favorito en privado.
+
+### ¿Cómo lo lleváis?
+
+[Wakkos](http://www.twitter.com/wakkos) se encargará del servidor pero es verdad que nos faltan muchas cosas; entre ellas un nombre cool, imagen visual y mucho backend. Puedes visitar la sección de [Issues](https://github.com/Wakkos/bm-pa-los-panas/issues) para ver que nos está haciendo falta o proponer alguna característica que veas que se nos pasa.
+
+## Cómo contribuir en bm-pa-los-panas
 
 Por favor, tómate un momento en revisar la siguiente documentación par a mantener el proceso de contribuciones fácil y efectivo para todos los implicados.
 
 Siguiendo estas pequeñas directrices nos ayuda a respetar el tiempo de todos los desarrolladores y diseñadores que colaboran en este proyecto “open source”.
 
 
-## Usando el Issue Tracker de Github
+### Usando el Issue Tracker de Github
 
 En Issue Tracker es donde debemos enviar nuestros [reportes de fallos](#reporte-de-fallos), [peticiónes de características ](#características) y [pull requests](#pull-requests), pero por favor, respeta las siguientes restricciones:
 
@@ -14,7 +26,7 @@ En Issue Tracker es donde debemos enviar nuestros [reportes de fallos](#reporte-
 * Por favor **no** trolees o denigres ninguna cuestión. Mantén la discusión dentro del tema y respeta las opiniones de otros.
 
 <a name="bugs"></a>
-## Reporte de fallos
+### Reporte de fallos
 
 Un fallo debe ser _demostrable_ y causado por el código en el repositorio. Los buenos reportes de fallos/bugs son de mucha ayuda - gracias!
 
@@ -47,12 +59,12 @@ Ejemplo:
 
 
 <a name="features"></a>
-## Petición de características
+### Petición de características
 
 Las peticiones de características son bienvenidas. Pero tómate un momento para analizar si encaja en los objetivos del proyecto.  *Depende de ti* convencer al equipo de la necesidad de esa característica. Por favor, provee tantos detalles como sean posibles.
 
 <a name="pull-requests"></a>
-## Pull requests
+### Pull requests
 
 Pull request de mejoras, nuevas características y “reparaciones” son una gran ayuda. Deben enfocarse siempre en los objetivos del proyecto y evitar commits innecesarios.
 
@@ -65,7 +77,7 @@ Sigue este proceso si quieres que tu trabajo sea considerado para incluirlo en e
 1. Haz un [Fork](http://help.github.com/fork-a-repo/) al proyecto, clona tu fork y configura el remoto:
 ```bash
  # Clona tu fork del repositorio en el directorio actual
-git clone https://github.com/<your-username>/bm-pa-los-panas
+git clone https://github.com/<username>/bm-pa-los-panas
  # Navega al nuevo directorio clonado
 cd bm-pa-los-panas
  # Asigna el repositorio original a un remoto llamado “upstream”
@@ -99,9 +111,7 @@ git remote add upstream https://github.com/Wakkos/bm-pa-los-panas
    git push origin <nombre-rama>
    ```
 
-10. [Abre una petición de pull](https://help.github.com/articles/using-pull-requests/)
+7. [Abre una petición de pull](https://help.github.com/articles/using-pull-requests/)
     con una título claro y descripción.
 
 **IMPORTANTE**: Al enviar un commit, acuerdas con las licencias usadas en el proyecto y que tu alma es nuestra sin que compremos una compañía que hace termostatos.
-
-<a name="maintainers"></a>
